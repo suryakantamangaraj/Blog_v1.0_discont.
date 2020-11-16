@@ -37,15 +37,16 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it. replace with yours
-        trackingId: "UA-164743872-1",
+        trackingId: "G-YNYFBN56BZ",
         head: true,
+        anonymize: true,
       }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Surya Stories`,
+        short_name: `Surya Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
