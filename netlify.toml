@@ -1,9 +1,15 @@
-[build]
-  publish = "public"
-  command = "npm run build"
-  
-[build.environment]
-  NODE_VERSION = "10"
+build:
+  command = npm run build
+  commandOrigin: config
+  environment:
+    - NODE_VERSION
+  publish: /opt/build/repo/public
+  publishOrigin: config
 
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+plugins:
+  - inputs: {}
+    origin: ui
+    package: '@netlify/plugin-lighthouse'
+  - inputs: {}
+    origin: config
+    package: netlify-plugin-gatsby-cache
