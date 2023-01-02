@@ -3,7 +3,7 @@ build:
   commandOrigin: config
   environment:
     - NODE_VERSION
-  publish: /opt/build/repo/public
+  publish: /public
   publishOrigin: config
 
 plugins:
