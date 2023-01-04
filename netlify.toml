@@ -1,9 +1,10 @@
+
 build:
   command = npm run build
   commandOrigin: config
   environment:
     - NODE_VERSION
-  publish: /public
+  publish: public
   publishOrigin: config
 
 plugins:
