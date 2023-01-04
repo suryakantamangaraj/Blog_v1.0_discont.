@@ -6,6 +6,6 @@
   publish = "public"
   publishOrigin = "config"
 
-[plugins]
+[[plugins]]
   package = "'@netlify/plugin-lighthouse'"
   package = "netlify-plugin-gatsby-cache"
