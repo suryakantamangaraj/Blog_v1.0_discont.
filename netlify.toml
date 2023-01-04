@@ -7,7 +7,7 @@
   publishOrigin = "config"
 
 [plugins]
-    origin = "ui"
-    package = "'@netlify/plugin-lighthouse'"
-    origin = "config"
-    package = "netlify-plugin-gatsby-cache"
+  origin = "ui"
+  package = "'@netlify/plugin-lighthouse'"
+  origin = "config"
+  package = "netlify-plugin-gatsby-cache"
