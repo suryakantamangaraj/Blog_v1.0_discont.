@@ -1,16 +1,16 @@
 
 [build]
-  command = npm run build
-  commandOrigin: config
+  command = "npm run build"
+  commandOrigin = "config"
   environment:
     - NODE_VERSION
-  publish: public
-  publishOrigin: config
+  publish = "public"
+  publishOrigin = "config"
 
 [plugins]
   - inputs: {}
-    origin: ui
-    package: '@netlify/plugin-lighthouse'
+    origin = "ui"
+    package = "'@netlify/plugin-lighthouse'"
   - inputs: {}
-    origin: config
-    package: netlify-plugin-gatsby-cache
+    origin = "config"
+    package = "netlify-plugin-gatsby-cache"
