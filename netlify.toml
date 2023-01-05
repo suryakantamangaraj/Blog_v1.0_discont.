@@ -1,6 +1,6 @@
 
 [build]
-  command = "CI=npm run build"
+  command = "npm run build"
   commandOrigin = "config"
   environment= "NODE_VERSION=10"
   publish = "public"
